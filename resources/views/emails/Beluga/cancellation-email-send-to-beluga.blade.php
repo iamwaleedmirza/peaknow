@@ -1,0 +1,1 @@
+<p>Patient <strong>{{$order->patient_name}}</strong> requested a cancellation for this visit.</p>

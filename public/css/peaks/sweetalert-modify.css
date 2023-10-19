@@ -1,0 +1,9 @@
+.danger-error-icon.swal2-icon.swal2-error {
+    border-color: red !important;
+    color: red !important;
+    background-color: red !important;
+}
+
+.danger-error-icon.swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+    background-color: white !important;
+}

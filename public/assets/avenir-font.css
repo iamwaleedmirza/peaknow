@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'AVENIRLTSTDBOOK1';
+    src: url('fonts/AVENIRLTSTDBOOK1.eot');
+    src: url('fonts/AVENIRLTSTDBOOK1.eot') format('embedded-opentype'),
+         url('fonts/AVENIRLTSTDBOOK1.woff2') format('woff2'),
+         url('fonts/AVENIRLTSTDBOOK1.woff') format('woff'),
+         url('fonts/AVENIRLTSTDBOOK1.ttf') format('truetype'),
+         url('fonts/AVENIRLTSTDBOOK1.svg#AVENIRLTSTDBOOK1') format('svg');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'AVENIRLTSTDBOOK1';
+    src: url('fonts/AVENIRLTSTDBOOK2.eot');
+    src: url('fonts/AVENIRLTSTDBOOK2.eot') format('embedded-opentype'),
+         url('fonts/AVENIRLTSTDBOOK2.woff2') format('woff2'),
+         url('fonts/AVENIRLTSTDBOOK2.woff') format('woff'),
+         url('fonts/AVENIRLTSTDBOOK2.ttf') format('truetype'),
+         url('fonts/AVENIRLTSTDBOOK2.svg#AVENIRLTSTDBOOK1') format('svg');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'AVENIRLTSTDBOOK1';
+    src: url('fonts/AVENIRLTSTDBOOK3.eot');
+    src: url('fonts/AVENIRLTSTDBOOK3.eot') format('embedded-opentype'),
+         url('fonts/AVENIRLTSTDBOOK3.woff2') format('woff2'),
+         url('fonts/AVENIRLTSTDBOOK3.woff') format('woff'),
+         url('fonts/AVENIRLTSTDBOOK3.ttf') format('truetype'),
+         url('fonts/AVENIRLTSTDBOOK3.svg#AVENIRLTSTDBOOK1') format('svg');
+    font-weight: 600;
+}

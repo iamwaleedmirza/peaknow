@@ -1,0 +1,156 @@
+.center-preloader {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    z-index: 9999;
+    /* makes sure it stays on top */
+}
+
+#preloader .pre-ldr-img {
+    width: 90px;
+    position: relative;
+    left: 6px;
+}
+
+#status {
+    width: 180px;
+    height: 30px;
+    position: fixed;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    top: 40%;
+    /* centers the loading animation vertically one the screen */
+    margin: -25px -90px -15px;
+    /* is width and height divided by two */
+}
+
+.spinner {
+    margin: 0px auto;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.spinner > div {
+    background-color: #1debb2;
+    height: 100%;
+    width: 0.25em;
+    display: inline-block;
+    -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+    animation: stretchdelay 1.2s infinite ease-in-out;
+    border-radius: 10px;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+    background-color: #00bfbe;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+    background-color: #0d9ca9;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+    background-color: #1f6c8b;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+    background-color: #255e82;
+}
+
+@-webkit-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4);
+    }
+    20% {
+        -webkit-transform: scaleY(1);
+    }
+}
+
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+    }
+}
+
+.heart-rate {
+    width: 150px;
+    height: 73px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.fade-in-beat {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    top: 0;
+    right: 0;
+    animation: heartRateIn 2.5s linear infinite;
+}
+
+.fade-out-beat {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: 0;
+    left: -120%;
+    animation: heartRateOut 2.5s linear infinite;
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 0) 100%);
+}
+
+@keyframes heartRateIn {
+    0% {
+        width: 100%;
+    }
+    50% {
+        width: 0;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes heartRateOut {
+    0% {
+        left: -120%;
+    }
+    30% {
+        left: -120%;
+    }
+    100% {
+        left: 0;
+    }
+}

@@ -1,0 +1,351 @@
+{
+    "questions": [
+        {
+            "question": "WHAT IS YOUR GENDER?",
+            "options": [
+                "MALE",
+                "FEMALE"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "DATE OF BIRTH",
+            "options": [],
+            "input_type": "date",
+            "required": true
+        },
+        {
+            "question": "CERTAIN SYMPTOMS CAN BE A SIGN OF A MORE SERIOUS MEDICAL PROBLEM AND YOU SHOULD SEE A DOCTOR IN PERSON INSTEAD. HAVE YOU RECENTLY EXPERIENCED, OR HAVE YOU EVER EXPERIENCED ANY OF THE FOLLOWING SYMPTOMS? SELECT ALL THAT APPLY.",
+            "options": [
+                "Chest pain or shortness of breath when climbing 2 flights of stairs or walking 4 blocks",
+                "Chest pain or shortness of breath with sexual activity",
+                "Any episodes of unexplained fainting, lightheadedness, or dizziness",
+                "Cramping of the legs with exercise",
+                "Abnormal heartbeats or rhythms",
+                "I've never experienced any of the above symptoms."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "THESE SYMPTOMS CAN BE A SIGN OF A MORE SERIOUS MEDICAL PROBLEM AND THE DOCTOR WILL NEED MORE INFORMATION WHEN REVIEWING YOUR PROFILE. PLEASE EXPLAIN YOUR SYMPTOMS IN DETAIL AND WHEN YOU LAST EXPERIENCED THEM.",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "DO YOU HAVE ANY OF THE FOLLOWING CONDITIONS THAT COULD MAKE YOUR ED TOO COMPLEX FOR US TO MANAGE ONLINE? SELECT ALL THAT APPLY.",
+            "options": [
+                "Any condition where sex is not advised",
+                "Kidney problems including having had a kidney transplant",
+                "Liver problems",
+                "Neurological problems like Parkinson's, Multiple Sclerosis, or Motor Neuron Disease",
+                "HIV / AIDS i",
+                "Spinal Injury Or Paralysis",
+                "Previous surgery on your prostate or pelvis",
+                "Radiation therapy to your pelvis",
+                "Low testosterone",
+                "No, I don't have any of the above conditions."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "THIS CONDITION(S) COULD MAKE YOUR ED TOO COMPLEX TO BE MANAGED THROUGH TELEMEDICINE AND THE DOCTOR WILL NEED MORE INFORMATION WHEN REVIEWING YOUR PROFILE. PLEASE EXPLAIN YOUR CONDITION(S) IN DETAIL",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "DO YOU HAVE ANY OF THESE GENITAL CONDITIONS THAT CAN MAKE HAVING SEX DIFFICULT? SELECT ALL THAT APPLY.",
+            "options": [
+                "Physical abnormalities of the penis / curving or bending of the penis making it hard for sex including Peyronie's disease",
+                "Scarring of the penis (feels like lumps or hard tissue under the skin)",
+                "Pain with erections",
+                "Tight foreskin",
+                "No, I don't have any of the above genital conditions."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "DO YOU CURRENTLY HAVE, OR HAVE YOU EVER HAD ANY OF THE FOLLOWING HEART/CARDIOVASCULAR CONDITIONS? SELECT ALL THAT APPLY.",
+            "options": [
+                "Low blood pressure",
+                "Angina (chest pain or shortness of breath)",
+                "Heart disease or heart attack",
+                "Heart stent or open-heart bypass surgery",
+                "Heart failure",
+                "Stroke",
+                "Have history or family history of QT prolongation",
+                "Abnormal heartbeat/rhythm—rapid, irregular, unusually slow (fewer than 60 beats/minute)",
+                "Heart valve problems",
+                "Hypertrophic obstructive cardiomyopathy (HCM)",
+                "Peripheral vascular disease or claudication (other than regular muscle soreness with exercise, cramping or pain in the calves or thighs)",
+                "None Apply"
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "HAVING CERTAIN HEART/CARDIOVASCULAR CONDITIONS MAY REQUIRE SPECIAL CONSIDERATION AND THE DOCTOR WILL NEED MORE INFORMATION WHEN REVIEWING YOUR PROFILE. PLEASE EXPLAIN YOUR HEART/CARDIOVASCULAR CONDITION(S) IN DETAIL.",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "IT CAN BE LIFE-THREATENING TO TAKE ED MEDICATIONS IF YOU HAVE CERTAIN MEDICAL CONDITIONS. DO YOU CURRENTLY HAVE, OR HAVE YOU EVER HAD ANY OF THE FOLLOWING MEDICAL CONDITIONS? SELECT ALL THAT APPLY.",
+            "options": [
+                "Priapism (erection lasting longer than 4 hours)",
+                "Retinitis pigmentosa",
+                "Anterior ischemic optic neuropathy (AION)",
+                "Sickle cell disease",
+                "Blood clotting disorder / abnormal bleeding or bruising / or coagulopathy",
+                "Myeloma or leukemia",
+                "Stomach or intestinal ulcer",
+                "No, I've never had any of these medical conditions."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "TAKING ED MEDICATIONS WHILE HAVING THIS CONDITION(S) CAN BE LIFE-THREATENING AND THE DOCTOR WILL NEED MORE INFORMATION WHEN REVIEWING YOUR PROFILE. PLEASE EXPLAIN YOUR CONDITION(S) IN DETAIL.",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "HAVE YOU EVER BEEN DIAGNOSED WITH ANY OF THE FOLLOWING? SELECT ALL THAT APPLY.",
+            "options": [
+                "Diabetes",
+                "High Blood Pressure",
+                "High Cholesterol",
+                "My father had a heart attack or heart disease at 55 years or younger",
+                "My mother had a heart attack or heart disease at 65 years or younger",
+                "No, I've never received these diagnoses."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "HAVE YOU SEEN A DOCTOR IN THE LAST 12 MONTHS?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "SYSTOLIC (MMHG)",
+            "options": [],
+            "input_type": "text",
+            "required": true
+        },
+        {
+            "question": "DIASTOLIC (MMHG)",
+            "options": [],
+            "input_type": "text",
+            "required": true
+        },
+        {
+            "question": "ARE YOU ALLERGIC TO ANY MEDICATION(S)? IF YES, PLEASE LIST THEM.",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "LIST ANY MEDICATIONS FOR WHICH YOU HAVE AN ALLERGY",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "ARE YOU TAKING ANY PRESCRIPTION MEDICATIONS? IF YES, PLEASE PROVIDE A FULL LIST OF ALL CURRENT MEDICATIONS.",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "PRESCRIPTION MEDICATIONS",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "ARE YOU TAKING ANY NONPRESCRIPTION MEDICATIONS? IF YES, PLEASE PROVIDE A FULL LIST AND INCLUDE ANY VITAMINS, HERBS, SUPPLEMENTS, OR OVER-THE-COUNTER PRODUCTS SUCH AS PAIN RELIEVERS AND SLEEP AIDS.",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "NON-PRESCRIPTION MEDICATIONS",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "IT CAN BE LIFE-THREATENING TO TAKE ED MEDICATIONS IN CONJUNCTION WITH CERTAIN OTHER MEDICATIONS. PLEASE BE ACCURATE. DO YOU CURRENTLY USE OR HAVE EVER USED ANY OF THE FOLLOWING? SELECT ALL THAT APPLY.",
+            "options": [
+                "Nitroglycerin in any form including spray, ointment, patches, or tablets (Common names include: Nitro-Dur, Nitrolingual, Nitrostat, Nitromist, Nitrolingual, Nitro-Bid, Transderm- Nitro, Nitro-Time, Deponit, Minitran, Nitrek, Nitrodisc, Nitrogard, Nitroglyn, Nitrol ointment, Nitrong, Nitro-Par)",
+                "Isosorbide mononitrate or isosorbide dinitrate (Common names include: Isordil, Dilatrate, Sorbitrate, Imdur, Ismo, Monoket)",
+                "I've never used any of the above medications"
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "IT CAN BE DANGEROUS TO TAKE ED MEDICATIONS IN CONJUNCTION WITH CERTAIN OTHER MEDICATIONS. PLEASE BE ACCURATE. DO YOU CURRENTLY TAKE ANY OF THE FOLLOWING MEDICATIONS? SELECT ALL THAT APPLY.",
+            "options": [
+                "Any medication called an alpha blocker (Common names include: Carder (doxazosin), Coreg (carvedilol), Flomax (tamsulosin), Hytrin (terazosin), Minipress (prazosin) Rapaflo (silodosin) Regitine or Traverse (phentolamine), Trandate (labetalol), Uraxatral (alfuzosin))",
+                "Sildenafil (Revatio) because I have been diagnosed /I have pulmonary hypertension",
+                "Riociguat (Adempas) because I have been diagnosed /I have pulmonary hypertension",
+                "I'm not taking any of these medications."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "TAKING THIS MEDICATION(S) IN CONJUNCTION WITH ED MEDICATIONS MAY REQUIRE SPECIAL CONSIDERATION AND THE DOCTOR WILL NEED MORE INFORMATION WHEN REVIEWING YOUR PROFILE. PLEASE LET US KNOW IF YOU ARE CURRENTLY TAKING THIS MEDICATION(S), HOW OFTEN YOU TAKE IT, OR WHEN YOU STOPPED TAKING THE MEDICATION(S) AND WHY?",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "HAVE YOU EVER BEEN TREATED FOR ED? THIS INCLUDES MEDICATIONS EITHER PRESCRIBED OR PURCHASED OVER THE COUNTER AS WELL AS ANY OTHER TREATMENTS. SELECT ALL THE APPLY.",
+            "options": [
+                "Viagra (sildenafil)",
+                "Cialis (tadalafil)",
+                "Levitra (vardenafil)",
+                "Other (pumps, penile injections, penile implants, supplements)",
+                "I've never been treated for ED."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "DID YOU EXPERIENCE ANY SIDE EFFECTS FROM YOUR PREVIOUS ED MEDICINES THAT WOULD STOP YOU FROM USING THEM AGAIN? IF YES, PLEASE LIST ALL SIDE EFFECTS (EXAMPLE: CHEST PAIN, LIGHTHEADEDNESS, DIZZINESS, BLURRY VISION, ETC.)",
+            "options": [
+                "Yes, I had side effects",
+                "No, I did not have any side effects",
+                "Never taken ED medications in the past"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "PLEASE LIST THE YOUR PREVIOUS ED MEDICINES THAT BOTHERED YOU",
+            "options": [],
+            "input_type": "textarea",
+            "required": true
+        },
+        {
+            "question": "DO YOU GET ERECTIONS WHEN ASLEEP OR FIRST THING IN THE MORNING?",
+            "options": [
+                "Yes",
+                "Sometimes",
+                "Hardly ever",
+                "No, never"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "DO YOU EVER HAVE A PROBLEM GETTING OR MAINTAINING AN ERECTION THAT IS SATISFYING ENOUGH FOR SEX?",
+            "options": [
+                "Yes, every time",
+                "Yes, more than half the time",
+                "Yes, on occasion",
+                "Yes, but rarely",
+                "I NEVER have a problem getting or maintaining an erection for as long as I want"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "WHEN MASTURBATING, DOES YOUR ERECTION REMAIN HARD UNTIL ORGASM OR LAST AS LONG AS YOU WOULD LIKE?",
+            "options": [
+                "No, it does not remain hard",
+                "Yes, it almost always remains hard",
+                "Yes, but only rarely does it remain hard",
+                "Not sure"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "DO YOU HAVE PREMATURE EJACULATION? PREMATURE EJACULATION IS WHEN YOU EJACULATE WITHIN A SHORT TIME OF HAVING SEX.",
+            "options": [
+                "Yes, I have premature ejaculation",
+                "No"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "HOW DID YOUR ED BEGIN? SELECT THE ONE THAT BEST DESCRIBES HOW YOUR ED BEGAN.",
+            "options": [
+                "Suddenly with a new partner",
+                "Suddenly but not with a new partner",
+                "Gradually but has worsened over time",
+                "I do not recall how it began"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "SOMETIMES ED CAN BE THE RESULT OF OUR LIFESTYLE HABITS. DO YOU HAVE ANY OF THE FOLLOWING LIFESTYLE HABITS? SELECT ALL THAT APPLY.",
+            "options": [
+                "I do not get as much exercise as I should",
+                "I do not eat as healthy as I should",
+                "I smoke tobacco products",
+                "I drink more than I should (greater than 2 drinks/day)",
+                "I do not sleep as much as I should",
+                "I'm 20+ lbs overweight",
+                "None of the above lifestyle habits describe me."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "HAVE YOU, OR ARE YOU CURRENTLY USING ANY OF THE FOLLOWING RECREATIONAL DRUGS? SELECT ALL THAT APPLY.",
+            "options": [
+                "Poppers or Rush",
+                "Amyl Nitrate or Butyl Nitrate",
+                "Cocaine",
+                "Molly (MDMA, ecstasy)",
+                "Other",
+                "I don't take any recreational drugs."
+            ],
+            "input_type": "checkbox",
+            "required": true
+        },
+        {
+            "question": "OVER THE PAST 2 WEEKS, HOW OFTEN HAVE YOU HAD SYMPTOMS OF DEPRESSION (FEELING DOWN, LITTLE INTEREST IN DOING THINGS) OR ANXIETY (FEELING NERVOUS OR WORRYING TOO MUCH ABOUT DIFFERENT THINGS)?",
+            "options": [
+                "Not at all",
+                "Several Days",
+                "More than half of the days",
+                "Nearly every day"
+            ],
+            "input_type": "radio",
+            "required": true
+        },
+        {
+            "question": "IS THERE ANYTHING ELSE WE SHOULD KNOW? OPTIONAL",
+            "options": [],
+            "input_type": "text",
+            "required": false
+        }
+    ]
+}

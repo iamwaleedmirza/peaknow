@@ -1,0 +1,132 @@
+/*==================== GOOGLE FONTS ====================*/
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/avenir/Avenir.woff2') format('woff2'),
+    url('../../fonts/avenir/Avenir.woff') format('woff'),
+    url('../../fonts/avenir/Avenir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/avenir/Avenir_Medium.woff2') format('woff2'),
+    url('../../fonts/avenir/Avenir_Medium.woff') format('woff'),
+    url('../../fonts/avenir/Avenir_Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/avenir/Avenir_Bold.woff2') format('woff2'),
+    url('../../fonts/avenir/Avenir_Bold.woff') format('woff'),
+    url('../../fonts/avenir/Avenir_Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+    --header-height: 3rem;
+
+    --color-primary: #2B2344;
+    --color-secondary: #FAFAFA;
+
+    /*========== Dark theme colors ==========*/
+    --body-color: var(--color-primary);
+    --color-on-body: var(--color-secondary);
+    --heading-color: #FFFFFF;
+    --text-color: #c8c8c8;
+    --btn-color: var(--color-secondary);
+    --btn-text-color: var(--color-primary);
+    --scroll-bar-color: #625293;
+    --scroll-thumb-color: #a486ff;
+    --card-background: #4C4466;
+
+    --text-color-secondary: #B5B5B5;
+    --text-color-hover: #BBB1DB;
+    --heading-color-light: #FFFFFF;
+    --text-color-light: #F1F1F1;
+    --heading-color-dark: #313131;
+    --text-color-dark: #6a6a6a;
+
+    --box-shadow: rgba(237, 237, 237, 0.28);
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Avenir', sans-serif;
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 3rem; /* 48px */
+    --h1-font-size: 2.18rem; /* 35px */
+    --h2-font-size: 1.875rem; /* 30px */
+    --h3-font-size: 1.5rem; /* 24px */
+    --h4-font-size: 1.375rem; /* 22px */
+    --h5-font-size: 1.125rem; /* 18px */
+    --h6-font-size: 1rem; /* 16px */
+    --normal-font-size: 0.875rem; /* 14px */
+    --small-font-size: 0.75rem; /* 12px */
+    --small-x-size: 0.625rem; /* 10px */
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 800;
+    --font-bold: 900;
+
+    /*========== Margins ==========*/
+    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+    --m-0-25: 0.25rem;
+    --m-0-5: 0.5rem;
+    --m-0-75: 0.75rem;
+    --m-1: 1rem;
+    --m-1-5: 1.5rem;
+    --m-2: 2rem;
+    --m-2-5: 2.5rem;
+    --m-3: 3rem;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+    /*========== z index ==========*/
+    --border-radius-sm: 10px;
+    --border-radius-md: 20px;
+    --border-radius-lg: 25px;
+}
+
+/* Font size for large devices */
+@media screen and (min-width: 1024px) {
+    :root {
+        --header-height: 5rem;
+
+        --big-font-size: 5rem; /* 80px */
+        --h1-font-size: 3.75rem; /* 60px */
+        --h2-font-size: 3.4375rem; /* 55px */
+        --h3-font-size: 2.5rem; /* 40px */
+        --h4-font-size: 1.875rem; /* 30px */
+        --h5-font-size: 1.5rem; /* 24px */
+        --h6-font-size: 1.25rem; /* 20px */
+        --normal-font-size: 1.125rem; /* 18px */
+        --small-font-size: 1rem; /* 16px */
+        --small-x-size: 0.875rem; /* 14px */
+    }
+}
+
+/*========== Variables Light theme ==========*/
+body.light-theme {
+    --body-color: var(--color-secondary);
+    --color-on-body: var(--color-primary);
+    --heading-color: #313131;
+    --text-color: #6a6a6a;
+    --btn-color: var(--color-primary);
+    --btn-text-color: var(--color-secondary);
+    --scroll-bar-color: #c5c5c5;
+    --scroll-thumb-color: #808080;
+    --card-background: #EFEFEF;
+
+    --box-shadow: var(--text-color-hover);
+}
+
+.fa-moon:before {
+    content: "\f186" !important;
+}

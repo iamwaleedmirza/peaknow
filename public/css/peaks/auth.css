@@ -1,0 +1,191 @@
+.section {
+    padding: 0;
+}
+
+.section-login {
+    padding-top: 1rem;
+}
+
+.header-logo {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.peaks-logo {
+    width: auto;
+    height: 36px;
+    content: var(--peaks-logo);
+}
+
+.login-form {
+    margin-bottom: var(--m-2);
+}
+
+.forgot-pass-text {
+    color: #FA5050;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.forgot-pass-text:hover {
+    color: var(--text-color-hover);
+}
+
+.social-icon {
+    margin: var(--m-1) var(--m-1) 0;
+}
+
+.s-icon {
+    font-size: var(--h3-font-size);
+    color: var(--text-color-secondary);
+}
+
+.terms-check-box {
+    font-size: var(--small-font-size);
+    margin-bottom: var(--m-1-5);
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+.upload-documents {
+    border: 1px solid var(--text-color);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.upload-documents label {
+    font-weight: var(--font-medium);
+    text-align: center;
+}
+
+.upload-documents input[type="file"] {
+    display: none;
+}
+
+.preview-card {
+    background-color: #C4C4C4;
+    border-radius: 25px;
+    width: 260px;
+    height: 260px;
+}
+
+.img-preview {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.btn-upload {
+    line-height: 36px;
+    margin-top: var(--m-1-5);
+}
+
+@media screen and (max-width: 768px) {
+    .btn-upload {
+        line-height: 26px;
+    }
+}
+
+.card-questions-info {
+    width: 90%;
+    border: 1px solid var(--text-color);
+    border-radius: 15px;
+    background-color: var(--card-background);
+    margin-top: var(--m-1-5);
+    padding: 1rem;
+}
+
+.order-img-wrapper {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+.order-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.order-name {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.order-description {
+    font-size: 12px;
+}
+
+.card-promo-code {
+    border: 1px solid var(--color-on-body);
+    border-radius: 15px;
+    padding: 1rem 0;
+}
+
+.promo-apply {
+    font-weight: var(--font-semi-bold);
+    color: #5F73A4;
+    cursor: pointer;
+}
+
+.address-card {
+    border: 1px solid var(--text-color);
+    border-radius: 15px;
+    background-color: var(--card-background);
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 568px) {
+    .header-logo {
+        /*height: 110px;*/
+    }
+    .card-questions-info {
+        width: 70%;
+        padding: 2rem 4rem;
+    }
+    .address-card {
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header-logo {
+        /*height: 138px;*/
+    }
+    .peaks-logo {
+        height: 50px;
+    }
+    .order-img-wrapper {
+        width: 100px;
+        height: 100px;
+    }
+    .order-name {
+        font-size: 18px;
+    }
+    .order-description {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .order-img-wrapper {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .order-img-wrapper {
+        width: 224px;
+        height: 224px;
+    }
+}

@@ -1,0 +1,1339 @@
+@import url('avenir-font.css');
+
+body {
+    font-family: 'AVENIRLTSTDBOOK1', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body .container {
+    max-width: 1140px;
+}
+
+.peaks-spacer {
+    padding-bottom: 120px;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+header.peaks .navigation {
+    background-color: #00000036;
+    border-bottom: 1px solid #dddddd21;
+    padding: 10px 0;
+}
+
+header.peaks .navigation .navbar-brand img {
+    max-width: 120px;
+    height: 52px; /*  added  */
+}
+
+header.peaks .navigation .nav-btn {
+    margin: unset;
+    padding: 8px 20px;
+    font-size: 15px;
+    max-width: unset;
+}
+
+header.peaks .navigation .nav-item a {
+    color: white;
+    font-size: 20px;
+    margin: 0 16px;
+    font-weight: 600;
+}
+
+header.peaks .navigation .modes-btn {
+    width: 30px;
+    margin: 0 12px;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+header.peaks .navigation .modes-cyp {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+header.peaks .navigation .modes-btn:hover {
+    transform: rotate(30deg);
+}
+
+header.peaks .navbar-light .navbar-toggler-icon {
+    background-image: url('menu-bars.svg');
+    filter: invert(1);
+}
+
+header.peaks .navbar .dev-cont {
+    width: 80%;
+    justify-content: flex-end;
+    display: none;
+}
+
+header.peaks .navbar .dev-cont-logo {
+    width: 20%;
+    justify-content: flex-start;
+    display: flex;
+}
+
+header.peaks .navigation .phone-devices {
+    text-align: center;
+    padding-top: 6px;
+    display: none;
+    padding-bottom: 16px;
+}
+
+header.peaks .navigation .phone-devices img {
+    max-width: 90px;
+}
+
+header.peaks {
+    background-image: url('ws_banner.jpeg');
+    min-height: 1000px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+header.peaks .overlay {
+    background-color: #1b18257d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header.peaks .bottom-ol {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 300px;
+    background: #2b2344;
+    background: linear-gradient(0deg, #2b2344 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    z-index: 120;
+}
+
+header.peaks .fear-line {
+    border: 2px solid;
+    padding: 5px 32px;
+    border-radius: 24px;
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 300px;
+}
+
+header.peaks .sex-life {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 24px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+header.peaks .gummy {
+    text-align: center;
+    font-weight: 900;
+    font-size: 72px;
+    background: linear-gradient(90deg, rgba(136, 87, 142, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(136, 87, 142, 1) 64%, rgba(255, 255, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+header.peaks .tag-line {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header.peaks .treat-online {
+    text-align: center;
+    color: #45DFEB;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+header.peaks a.dss-btn {
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+}
+
+header.pages-abt-us {
+    min-height: 632px;
+    background-image: url('https://peakscurative.com/images/png/img-our-story-1.png');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2B2344;
+}
+
+header.pages-abt-us .overlay {
+    background-color: unset;
+}
+
+
+a.dss-btn {
+    color: #000;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 24px 8px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: 300ms;
+    position: relative;
+    z-index: 600;
+    text-align: center;
+}
+
+a.dss-btn:hover {
+    background-color: #936698;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(224 179 230);
+}
+
+
+.ta-sa-ef {
+    background-color: #2B2344;
+    padding-bottom: 80px;
+}
+
+.ta-sa-ef h2.sec-ttl {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 72px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.ta-sa-ef .erectile {
+    color: white;
+}
+
+.ta-sa-ef .erectile a {
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.ta-sa-ef .erectile p {
+    font-size: 20px;
+    padding-right: 60px;
+}
+
+.ta-sa-ef .erectile .cont {
+    padding-left: 60px;
+}
+
+.ta-sa-ef .erectile h3 {
+    color: #45DFEB;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.ta-sa-ef .weight-l .cont {
+    margin-top: 24px;
+    margin-right: -72px;
+}
+
+.ta-sa-ef .weight-l img {
+    max-width: 106%;
+    margin-left: -48px;
+}
+
+.ta-sa-ef .dyk {
+    color: white;
+}
+
+.ta-sa-ef .dyk .cont h2 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-top: 36px;
+}
+
+.ta-sa-ef .dyk .cont p {
+    font-size: 20px;
+    padding-right: 20%;
+}
+
+.ta-sa-ef .dyk .cont .byED {
+    display: flex;
+    background-color: #EBF2F9;
+    padding: 12px;
+    color: #000;
+    align-items: center;
+    border-radius: 23px;
+    margin-top: 36px;
+}
+
+.ta-sa-ef .dyk .cont .byED img.piechrt {
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.ta-sa-ef .dyk .cont .byED p {
+    font-size: 14px;
+    padding: 0 30px 0 18px;
+    border-left: 3px solid #2b2344;
+    font-weight: 600;
+    margin: 4px 0 4px 10px;
+    line-height: 18px;
+}
+
+.ta-sa-ef .dyk .cont .byED p span {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    color: #B1AFCD;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.ta-sa-ef .dyk .purple-cards {
+    width: 112%;
+    margin-left: -60px;
+    margin-top: -60px;
+}
+
+
+.wms-differ {
+    padding: 50px 0 72px 0;
+    background-image: url('can-pattern.jpg');
+    background-size: cover;
+    background-position-y: -186px;
+    background-position-x: 32px;
+}
+
+.wms-differ h2.sec-ttl {
+    color: #2b2344;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 72px;
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.wms-differ .peak-only {
+    display: none;
+}
+
+.wms-differ .differs h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wms-differ .differs h3 span {
+    color: #33d4e1;
+}
+
+.wms-differ .arms-peaks {
+    display: flex;
+    justify-content: center;
+}
+
+.wms-differ .arms-peaks img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.wms-differ .differs h3.lico_1,
+.wms-differ .differs h3.lico_2 {
+    text-align: right;
+}
+
+.wms-differ .differs h3.lico_3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wms-differ .differs h3.lico_4,
+.wms-differ .differs h3.lico_5 {
+    text-align: left;
+}
+
+.wms-differ .differs h3.lico_2,
+.wms-differ .differs h3.lico_5 {
+    margin-top: 200px;
+}
+
+.wms-differ .differs hr.divdr-ln {
+    display: none;
+}
+
+
+.wu-peaks {
+    background-color: #2B2344;
+    padding: 80px 0;
+}
+
+.wu-peaks .up-stair img {
+    width: 100%;
+}
+
+.wu-peaks .why-use h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.wu-peaks .why-use p {
+    color: white;
+    font-size: 20px;
+}
+
+.wu-peaks .why-use a {
+    margin-top: 20px;
+}
+
+.wu-peaks .why-use .icon-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.wu-peaks .why-use .icon-list .item {
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.wu-peaks .why-use .icon-list .item span {
+    border: 2px solid;
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.265em;
+    margin-right: 6px;
+}
+
+.wu-peaks .why-use .icon-list .item span img {
+    max-width: 28px;
+}
+
+
+.three-steps {
+    background-color: #2B2344;
+    padding: 60px 0;
+}
+
+.three-steps .man-sea img {
+    width: 100%;
+}
+
+.three-steps h2.sec-ttl {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.three-steps h3.bottom-line {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+.three-steps .lunch-spring {
+    color: #45dfeb;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+    padding: 4px 30px;
+    font-weight: 600;
+    border-radius: 32px;
+    margin-bottom: 60px;
+}
+
+.three-steps .why-use .steps-cont {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 72px;
+}
+
+.three-steps .why-use .steps-cont b {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.three-steps .why-use .steps-cont p {
+    font-size: 16px;
+    max-width: 280px;
+    margin: 0 0 0 16px;
+}
+
+.three-steps .why-use a {
+    margin-left: 72px;
+    margin-top: 24px;
+}
+
+
+.plans {
+    padding: 60px 0;
+}
+
+.plans h2.sec-ttl {
+    color: #2b2344;
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.plans h3.bottom-line {
+    color: #2b2344;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto 60px;
+    text-transform: uppercase;
+    max-width: 60%;
+    font-weight: 600;
+}
+
+.plans .plan-cards .pksp {
+    background-color: #2b2344;
+    padding: 14px 14px 36px 14px;
+    border-radius: 19px;
+    text-align: center;
+    margin-bottom: 32px;
+    border: 3px solid #45dfeb;
+}
+
+.plans .plan-cards .pksp ul {
+    padding: 0;
+}
+
+.plans .plan-cards .pksp img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.plans .plan-cards .pksp .gummy-btn {
+    color: #45dfeb;
+    border: 2px solid #ffffff;
+    padding: 4px 20px;
+    margin: 24px 0;
+    background-color: #2b2344;
+}
+
+.plans .plan-cards .pksp h2.pl-name {
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.plans .plan-cards .pksp ul li {
+    list-style: none;
+    text-shadow: 0 0 1px white;
+    color: white;
+}
+
+.plans .plan-cards .pksp .price {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: white;
+}
+
+
+.c-way {
+    padding: 60px 0;
+    background-color: #2b2344;
+}
+
+.c-way h2.sec-ttl {
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    padding-top: 40px;
+    color: #ffffff;
+    padding-bottom: 24px;
+}
+
+.c-way h1.scd-ttl {
+    margin-top: 72px;
+    margin-bottom: 26px;
+}
+
+.c-way .list-items {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 32px;
+    margin-top: 24px;
+}
+
+.c-way .list-items img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.c-way .list-items h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-way .list-items p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.c-way .all-qsn-btn {
+    display: block;
+    margin: 48px auto;
+    max-width: fit-content;
+}
+
+#accordion-peaks,
+#accordionCommonQues,
+#accordionShippingQues {
+    border-radius: 18px;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+
+#accordion-peaks h2.accordion-header button,
+#accordionCommonQues h2.accordion-header button,
+#accordionShippingQues h2.accordion-header button {
+    background-color: #ffffff;
+    color: #2b2344;
+    font-size: 20px;
+    padding: 30px 24px;
+    font-weight: 900;
+}
+
+#accordion-peaks h2.accordion-header button.collapsed,
+#accordionCommonQues h2.accordion-header button.collapsed,
+#accordionShippingQues h2.accordion-header button.collapsed {
+    background-color: #2b2344;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#accordion-peaks .accordion-button::after,
+#accordionCommonQues .accordion-button::after,
+#accordionShippingQues .accordion-button::after {
+    background-color: #45dfeb;
+    border-radius: 32px;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-image: url(acc-arr.svg);
+}
+
+#accordion-peaks .accordion-body,
+#accordionCommonQues .accordion-body,
+#accordionShippingQues .accordion-body {
+    font-size: 18px;
+    color: #2b2344;
+}
+
+
+footer.peaks {
+    padding: 40px 0;
+}
+
+footer.peaks .ftr-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+footer.peaks .xtr-lft-pdg {
+    padding-left: 32px;
+}
+
+footer.peaks .ftr-cont img {
+    /*filter: invert(1);*/
+    width: 120px;
+    padding-top: 10px;
+}
+
+footer.peaks .ftr-cont h3 {
+    color: #2b2344;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+footer.peaks .ftr-cont a {
+    font-size: 16px;
+    color: #2b2344;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+footer.peaks .ftr-cont a:hover {
+    color: #906596;
+}
+
+footer.peaks .cptxt {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 24px;
+    border-top: 1px solid #c7c7c7;
+}
+
+footer.peaks .cptxt span {
+    color: #45dfeb;
+}
+
+
+body.light header.peaks .bottom-ol {
+    background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+body.light .ta-sa-ef,
+body.light .wu-peaks,
+body.light .three-steps,
+body.light .plans .plan-cards .pksp,
+body.light .c-way {
+    background-color: #ffffff;
+}
+
+body.light .ta-sa-ef h2.sec-ttl,
+body.light .ta-sa-ef .dyk,
+body.light .ta-sa-ef .erectile,
+body.light .wu-peaks .why-use h3,
+body.light .wu-peaks .why-use p,
+body.light .wu-peaks .why-use .icon-list .item,
+body.light .three-steps h2.sec-ttl,
+body.light .three-steps h3.bottom-line,
+body.light .three-steps .why-use .steps-cont,
+body.light .plans .plan-cards .pksp h2.pl-name,
+body.light .plans .plan-cards .pksp ul li,
+body.light .plans .plan-cards .pksp .price,
+body.light .c-way h2.sec-ttl,
+body.light .c-way .list-items {
+    color: #2B2344;
+}
+
+body.light .three-steps .lunch-spring {
+    border: 2px solid #2B2344;
+}
+
+body.light .plans {
+    background-color: #2B2344;
+}
+
+body.light .plans h2.sec-ttl,
+body.light .plans h3.bottom-line {
+    color: #ffffff !important;
+}
+
+body.light .c-way .list-items img {
+    filter: invert(1);
+}
+
+body.light .card {
+    background-color: #2B2344 !important;
+}
+
+body.light a.dss-btn {
+    color: #ffffff;
+    background-color: #2B2344;
+    transition: 300ms;
+}
+
+body.light a.dss-btn:hover {
+    background-color: #936698;
+    color: white;
+}
+
+body.light a.banner-btn,
+body.light a.navbar-btn {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+body.light .plans .plan-cards .pksp .gummy-btn {
+    border-color: #2B2344;
+    background-color: #ffffff;
+}
+
+body.light #accordion-peaks,
+body.light #accordionCommonQues,
+body.light #accordionShippingQues {
+    border: 2px solid #2B2344;
+}
+
+body.light #accordion-peaks h2.accordion-header button,
+body.light #accordionCommonQues h2.accordion-header button,
+body.light #accordionShippingQues h2.accordion-header button {
+    background-color: #2B2344;
+    color: #ffffff;
+}
+
+body.light #accordion-peaks h2.accordion-header button.collapsed,
+body.light #accordionCommonQues h2.accordion-header button.collapsed,
+body.light #accordionShippingQues h2.accordion-header button.collapsed {
+    background-color: #ffffff;
+    color: #2B2344;
+}
+
+body.light #accordion-peaks .accordion-body,
+body.light #accordionCommonQues .accordion-body,
+body.light #accordionShippingQues .accordion-body {
+    color: #ffffff;
+    background: #2b2344;
+}
+
+body.light #accordion-peaks .accordion-item,
+body.light #accordionCommonQues .accordion-item,
+body.light #accordionShippingQues .accordion-item {
+    border: 1px solid #2b2344;
+}
+
+
+@media only screen and (max-width: 990px) {
+    header.peaks {
+        min-height: 600px;
+    }
+
+    header.peaks .navbar .dev-cont {
+        display: flex;
+    }
+
+    header.peaks .fear-line {
+        font-size: 16px;
+        margin-top: 140px;
+    }
+
+    header.peaks .sex-life {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    header.peaks .gummy {
+        font-size: 62px;
+    }
+
+    header.peaks .bottom-ol {
+        min-height: 80px;
+    }
+
+    header.peaks .navigation .for-dt {
+        display: none;
+    }
+
+    header.peaks .navbar {
+        padding-left: 0;
+    }
+
+    header.peaks .navigation .navbar-brand img {
+        max-width: 100px;
+        margin-left: 20px;
+        height: 50px; /*  added  */
+    }
+
+    .ta-sa-ef h2.sec-ttl {
+        margin-bottom: -32px;
+        font-size: 36px;
+        padding-top: 40px;
+    }
+
+    .ta-sa-ef .weight-l .cont {
+        margin-top: 24px;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .ta-sa-ef .weight-l img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .ta-sa-ef .erectile .cont {
+        padding: 0 40px;
+    }
+
+    .ta-sa-ef .erectile p {
+        padding-right: 0;
+    }
+
+    .peaks-spacer {
+        padding-bottom: 0;
+    }
+
+    .ta-sa-ef .reverse-on-mob {
+        flex-direction: column-reverse;
+    }
+
+    .ta-sa-ef .dyk .purple-cards {
+        width: 75%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .ta-sa-ef .dyk .cont {
+        text-align: center;
+        padding: 0 42px;
+    }
+
+    .ta-sa-ef .dyk .cont h2 {
+        margin-top: 0;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .ta-sa-ef .dyk .cont p {
+        font-size: 20px;
+        padding-right: 30%;
+        text-align: left;
+    }
+
+
+    .wms-differ h2.sec-ttl {
+        margin-bottom: 72px;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .wms-differ .arms-peaks img {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: -20px;
+    }
+
+    .wms-differ .differs h3.lico_2,
+    .wms-differ .differs h3.lico_5 {
+        margin-top: 130px;
+    }
+
+    .wms-differ .differs h3.lico_3 {
+        margin-top: 48px;
+    }
+
+    .wms-differ .differs h3 {
+        font-size: 24px;
+    }
+
+    .wu-peaks .up-stair img {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .wu-peaks .up-stair {
+        text-align: center;
+    }
+
+    .wu-peaks .why-use .cont {
+        padding: 0 42px;
+    }
+
+    .wu-peaks .why-use h3 {
+        font-size: 40px;
+    }
+
+    .three-steps {
+        padding: 0 0 60px 0;
+    }
+
+    .three-steps .reverse-on-mob {
+        flex-direction: column-reverse;
+    }
+
+    .three-steps .man-sea {
+        text-align: center;
+    }
+
+    .three-steps .man-sea img {
+        width: 100%;
+        max-width: 620px;
+    }
+
+    .three-steps h2.sec-ttl {
+        font-size: 40px;
+    }
+
+    .plans h2.sec-ttl {
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .plans h3.bottom-line {
+        font-size: 20px;
+        margin: 0 auto 42px;
+        max-width: 90%;
+        font-weight: 600;
+    }
+
+    .plans {
+        padding: 30px 0;
+    }
+
+    .c-way h2.sec-ttl {
+        font-size: 40px;
+        margin-top: 24px;
+    }
+
+    .c-way {
+        padding: 60px 0 10px;
+    }
+
+    footer.peaks {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    footer.peaks .xtr-lft-pdg {
+        padding-left: 0;
+    }
+
+    footer.peaks .ftr-cont h3 {
+        font-size: 24px;
+        margin-top: 32px;
+    }
+
+    footer.peaks .ftr-cont img {
+        width: 120px;
+        display: block;
+        max-width: fit-content;
+        margin: auto;
+    }
+
+    footer.peaks .cptxt {
+        font-size: 16px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .wms-differ .arms-peaks img {
+        display: none;
+    }
+
+    .wms-differ .differs h3.lico_1,
+    .wms-differ .differs h3.lico_2,
+    .wms-differ .differs h3.lico_3,
+    .wms-differ .differs h3.lico_4,
+    .wms-differ .differs h3.lico_5 {
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 30px;
+        padding: 0 42px;
+    }
+
+    .wms-differ h2.sec-ttl {
+        margin-bottom: 16px;
+        font-size: 32px;
+        padding: 20px 20px 0 20px;
+    }
+
+    .wms-differ .peak-only {
+        display: block;
+        max-width: fit-content;
+        width: 80px;
+        margin: 24px auto;
+    }
+
+    .wms-differ .differs hr.divdr-ln {
+        display: block;
+        border-top: 3px solid #2b2344;
+        max-width: 72px;
+        margin: 30px auto;
+    }
+
+    footer.peaks {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    footer.peaks .xtr-lft-pdg {
+        padding-left: 0;
+    }
+
+    footer.peaks .ftr-cont h3 {
+        font-size: 24px;
+        margin-top: 32px;
+    }
+
+    footer.peaks .ftr-cont img {
+        width: 120px;
+        display: block;
+        max-width: fit-content;
+        margin: auto;
+    }
+
+    footer.peaks .cptxt {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 590px) {
+    header.peaks {
+        min-height: 510px;
+    }
+
+    header.peaks .navigation .navbar-brand {
+        display: none !important;
+    }
+
+    header.peaks .navigation .phone-devices {
+        display: block;
+    }
+
+    header.peaks .fear-line {
+        font-size: 13px;
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    header.peaks .sex-life {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+    header.peaks .gummy {
+        font-size: 40px;
+        margin-top: -10px;
+    }
+
+    header.peaks .tag-line {
+        font-size: 14px;
+    }
+
+    header.peaks .treat-online {
+        font-size: 16px;
+    }
+
+    header.peaks .bottom-ol {
+        min-height: 60px;
+    }
+
+    header.peaks .navigation .nav-btn {
+        padding: 7px 10px 5px;
+        font-size: 12px;
+    }
+
+    header.peaks .navbar {
+        padding: 0.5rem;
+    }
+
+    .ta-sa-ef h2.sec-ttl {
+        font-size: 32px;
+        padding: 30px 20px;
+    }
+
+    .ta-sa-ef .erectile .cont {
+        padding: 0 24px;
+    }
+
+    .ta-sa-ef .weight-l img {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
+    .ta-sa-ef .dyk .purple-cards {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .ta-sa-ef .dyk .cont {
+        text-align: center;
+        padding: 0 24px;
+    }
+
+    .ta-sa-ef .dyk .cont h2 {
+        font-size: 32px;
+    }
+
+    .ta-sa-ef .dyk .cont p {
+        padding-right: 0%;
+    }
+
+    .ta-sa-ef .dyk .cont .byED {
+        display: flex;
+        padding: 20px 12px;
+        flex-direction: column;
+    }
+
+    .ta-sa-ef .dyk .cont .byED p {
+        padding: 0;
+        border-top: 3px solid #2b2344;
+        border-left: 0;
+        text-align: center;
+        padding-top: 16px;
+        margin: 20px 10px 0 10px;
+        font-size: 12px;
+    }
+
+    .ta-sa-ef .dyk .cont .byED img.piechrt {
+        max-width: 100%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .ta-sa-ef .dyk .cont .byED p span {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .wu-peaks {
+        padding: 40px 0;
+    }
+
+    .wu-peaks .why-use h3 {
+        font-size: 32px;
+    }
+
+    .wu-peaks .why-use .cont {
+        padding: 0 24px;
+    }
+
+    .three-steps h2.sec-ttl {
+        font-size: 32px;
+    }
+
+    .three-steps h3.bottom-line {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .three-steps .lunch-spring {
+        font-size: 16px;
+        margin-bottom: 32px;
+        margin-top: 20px;
+    }
+
+    .three-steps .man-sea img {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .three-steps .why-use .steps-cont {
+        padding-left: 24px;
+    }
+
+    .three-steps .why-use .steps-cont b {
+        font-size: 72px;
+    }
+
+    .three-steps .why-use a {
+        margin: 24px auto;
+        display: block;
+        max-width: fit-content;
+    }
+
+    .three-steps {
+        padding: 0 0 32px 0;
+    }
+
+    .plans h2.sec-ttl {
+        font-size: 32px;
+    }
+
+    .plans h3.bottom-line {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .plans .plan-cards .pksp h2.pl-name {
+        font-size: 24px;
+    }
+
+    .plans .plan-cards .pksp ul {
+        font-size: 12px;
+    }
+
+    .plans {
+        padding: 20px 0 10px 0;
+    }
+
+    .c-way .list-items img {
+        width: 40px;
+        margin-right: 12px;
+    }
+
+    .c-way .list-items h3 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+
+    .c-way .list-items p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .c-way h2.sec-ttl {
+        font-size: 32px;
+        margin-top: 0;
+    }
+
+    .c-way {
+        padding: 30px 0 10px;
+    }
+
+    .c-way .all-qsn-btn {
+        display: block;
+        margin: 32px auto;
+    }
+
+    footer.peaks .cptxt {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    header.peaks .fear-line {
+        margin-top: 20px;
+    }
+
+    header.peaks .sex-life {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    header.peaks .gummy {
+        font-size: 32px;
+    }
+
+    header.peaks .treat-online {
+        font-size: 14px;
+    }
+
+    header.peaks .navigation .nav-btn {
+        padding: 7px 10px 5px;
+        font-size: 10px;
+    }
+
+    header.peaks {
+        min-height: 460px;
+    }
+
+}
